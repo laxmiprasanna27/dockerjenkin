@@ -3,5 +3,5 @@ WORKDIR /App
 COPY . /App
 RUN pip install --no-cache-dir -r requiremnts.txt
 EXPOSE 5000
-CMD ["python","App.py"]
+CMD ["python","app.py"]
 
